@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <nav>
+        <menu>
+            <ul>
+                <li><a href="#">ورود</a></li>
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">اطلاعات</a></li>
+            </ul>
+        </menu>
+    </nav>
+    
+<main>
+    <div class="row row1">
+        <div class="child" id="mamad">
+         <div class="card card1"></div>
+         <div class="card card2"></div>
+        </div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    <div class="row row2"></div>
+    <div class="row row3"></div>
+</main>
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+    menu{
+        background-color: black;
+        justify-content: center;
+        display: flex;
+        
+    }
+    menu ul{
+        display: flex;
+        padding: 21px;
+    }
+    menu li{
+        width: 21px;
+        padding: 21px;
+    }
+    menu a{
+        color: whitesmoke;
+    }
+    main{
+/* background-color: black; */
+width: 80%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+gap: 10px;
+    }
+    .row{
+        background-color: green;
+        width: 100%;
+        height: 33%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .child{
+        background-color: slategray;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+gap: 10px;
+    }
+    .row1{
+        background-color: aliceblue;
+    }
+    .card{
+        background-color: rgb(206, 232, 7);
+        height: 50%;
+    }
+    #mamad{
+        background-color: aliceblue;
+    }
+</style>
+
+</body>
+</html>
